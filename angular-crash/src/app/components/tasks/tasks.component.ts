@@ -28,6 +28,11 @@ export class TasksComponent implements OnInit {
         task.id))
         );
     }
+
+    toggleReminder(task: any) {
+      task.reminder = !task.reminder;
+      this.taskService.updateTaskReminder(task).subscribe();
+    }
   }
 
 
