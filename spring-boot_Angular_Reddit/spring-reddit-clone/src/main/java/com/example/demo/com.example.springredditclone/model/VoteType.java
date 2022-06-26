@@ -1,5 +1,7 @@
 package com.example.demo.com.example.springredditclone.model;
 
+import com.example.demo.com.example.springredditclone.exceptions.SpringRedditException;
+
 import java.util.Arrays;
 
 public enum VoteType {
