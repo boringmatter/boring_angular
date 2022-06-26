@@ -1,4 +1,4 @@
-package com.example.demo.com.example.springredditclone.service;
+package com.example.demo.com.example.springredditclone.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
